@@ -1,0 +1,7 @@
+INPUT 3 A B C
+OUTPUT 1 Z
+
+DECODER 3    A B C    _ _ _ p q _ r s
+OR           p q      t
+OR           r s      u
+OR           t u      Z 
